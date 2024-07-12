@@ -1,0 +1,15 @@
+# 1st programm
+print ((9**0.5)*5)
+
+#2nt program
+print(9.99>9.98 and 1000!=1000.1)
+
+#3rt program
+print(int((1234%1000)/10)+int((5678%1000)/10))
+
+#4th program 13.42 42.13
+a=13.42
+b=42.13
+print((int(a)==round(b%1,2)*100) or int(b)==round(a%1,2)*100)
+#or
+print((int(a)==b*100%100) or int(b)==a*100%100)
